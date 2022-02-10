@@ -29,7 +29,7 @@ Usage: generate_migration [migration_name]
 migration_name has to be snake_cased and can't contain digits or whitespaces.
 
 # For example:
-$ bin/generate_migation snake_cased_migration_name
+$ bin/generate_migration snake_cased_migration_name
 ```
 
 :warning: Be careful with `IMPORT_FORCE` option. It's easy to unintentionally override the data while using JSON files like migrations.
